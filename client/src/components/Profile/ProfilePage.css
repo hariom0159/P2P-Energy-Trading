@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.contenP {
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 70%;
+  height: fit-content;
+  padding: 2%;
+  margin: 0.5%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  box-shadow: 1px 1px 4px 2px silver;
+}
+
+.contenP .cnt {
+  height: 100%;
+  width: 50%;
+  margin: 3%;
+}
+
+.ttl {
+  color: black;
+}
+
+.ttc {
+  color: grey;
+}
+
+.sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  border-bottom: 1px solid silver;
+}
+
+.contenP .sec button {
+  color: grey !important;
+  background-color: transparent !important;
+  text-align: start !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem !important;
+  width: fit-content !important;
+}
+
+.contenP .sec button:hover {
+  color: rgb(129, 122, 247) !important;
+}
+
+.sec label {
+  background-color: silver;
+  color: black;
+  padding: 1%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid silver;
+  cursor: pointer;
+}
+
+.sec form {
+  box-shadow: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}

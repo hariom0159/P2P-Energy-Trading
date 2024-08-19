@@ -1,0 +1,19 @@
+.form-content3 {
+    width: 40% !important;
+    background-color: var(--form-background-color);
+    border-radius: 10px !important;
+    padding: 2%;
+    box-shadow: 0.5px -0.5px 2px 1px rgb(32, 32, 32);
+  }
+
+  h1, h2, h5{
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1{
+    font-size: 5rem;
+    color: crimson;
+  }
+

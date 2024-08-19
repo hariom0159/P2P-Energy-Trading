@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.conten {
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+  height: fit-content;
+  padding: 2%;
+  margin: 0.5%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  box-shadow: 1px 1px 4px 2px silver;
+}
+
+.ttl {
+  color: black;
+}
+
+.ttc {
+  color: grey;
+}
+
+.sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  border-bottom: 1px solid silver;
+}
+
+.sec2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  border-bottom: 1px solid silver;
+}
+
+.sec3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  border: 1px solid silver;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.sec5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.conten .sec5 button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem !important;
+  border-radius: 5px;
+  width: fit-content !important;
+}
+
+.conten .sec5 button:hover {
+  background-color: rgb(50, 205, 177) !important;
+}

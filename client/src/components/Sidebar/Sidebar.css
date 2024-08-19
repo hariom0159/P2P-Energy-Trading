@@ -1,0 +1,39 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.sidebar {
+  border-right: 1px solid silver;
+  height: 100%;
+  width: max-content;
+  padding: 1%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  transition: all 1s ease-out;
+  z-index: 1;
+}
+
+.sidebar button {
+  color: black !important;
+  background-color: transparent !important;
+  text-align: start !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem !important;
+  width: max-content !important;
+  /* width: fit-content !important; */ /*! word will be wrapped */
+}
+
+.sidebar button:hover {
+  background-color: transparent !important;
+}
+
+.sidebar .comp:hover {
+  border-radius: 10px !important;
+  background-color: rgb(214, 250, 210) !important;
+}
+
+.sidebar .head {
+  border-bottom: 1px solid silver;
+}

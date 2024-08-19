@@ -1,0 +1,54 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.c1 {
+  width: 43%;
+  height: 100%;
+  padding: 2%;
+}
+
+.c1 h1 {
+  font-size: 2.3rem;
+  color: rgb(7, 176, 83);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 2.5px grey;
+}
+
+.c1 h2 {
+  font-size: 1.9rem;
+  color: rgb(61, 61, 61);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.c1 h4 {
+  font-size: 1rem;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.box {
+  font-size: 1rem;
+  color: rgb(61, 61, 61);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.shadow{
+  box-shadow: 1px 1px 4px 2px silver;
+  border-radius: 7px;
+}
+
+.c2 {
+  width: 40%;
+  height: 95%;
+  box-shadow: 1px 1px 4px 2px silver;
+  border-radius: 7px;
+  margin: auto;
+}
